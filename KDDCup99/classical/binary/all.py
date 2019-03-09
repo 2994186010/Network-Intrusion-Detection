@@ -19,6 +19,8 @@ from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import (precision_score, recall_score,f1_score, accuracy_score,mean_squared_error,mean_absolute_error, roc_curve, classification_report,auc)
 
+# test20190309
+
 traindata = pd.read_csv('kddtrain.csv', header=None)
 testdata = pd.read_csv('kddtest.csv', header=None)
 
